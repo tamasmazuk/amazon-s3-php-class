@@ -1,4 +1,5 @@
 # Amazon S3 PHP Class
+[![phpunit](https://github.com/elecena/amazon-s3-php-class/actions/workflows/phpunit.yml/badge.svg)](https://github.com/elecena/amazon-s3-php-class/actions/workflows/phpunit.yml)
 
 ## Usage
 
