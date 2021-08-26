@@ -27,7 +27,10 @@
         "guzzlehttp/guzzle": "^7.3"
     },
     "scripts": {
-        "coverage": "phpunit --coverage-html=.coverage --coverage-text --verbose --testdox",
+        "coverage": "phpunit --coverage-clover=.coverage.xml --coverage-html=.coverage --coverage-text --verbose --testdox",
         "test": "phpunit -vvv --testdox"
+    },
+    "archive": {
+        "exclude": ["examples/", "tests/", ".coverage", ".github", "phpunit.xml", "README.md", ".gitignore"]
     }
 }
