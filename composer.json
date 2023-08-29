@@ -31,6 +31,6 @@
         "test": "phpunit -vvv --testdox"
     },
     "archive": {
-        "exclude": ["examples/", "tests/", ".coverage", ".github", "phpunit.xml", "README.md", ".gitignore"]
+        "exclude": ["examples/", ".coverage", ".github", "phpunit.xml", "README.md", ".gitignore"]
     }
 }
