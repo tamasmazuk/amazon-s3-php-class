@@ -5,8 +5,12 @@
 ## Installation
 
 ```
-composer require elecena/amazon-s3-php-class
+composer require tamasmazuk/amazon-s3-php-class
 ```
+
+## Extra
+
+* SignatureDoesNotMatch error bugfix merged: https://github.com/tpyo/amazon-s3-php-class/pull/175
 
 ## Usage
 
